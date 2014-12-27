@@ -38,8 +38,8 @@ The data source has a designated initialiser that takes a model object. The mode
 
 - The ugly switch statement in cellForRowAtIndexPath should not rely on hardocded numbers. Use enum instead
 
-	typedef enum {
+	`typedef enum {
 	    kFirstIndex = 0,
 	    kSecondIndex
-	} BigtDataSourceIndexType;
+	} BigtDataSourceIndexType;`
     
