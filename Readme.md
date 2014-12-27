@@ -2,7 +2,7 @@
 
 ## Intent
 
-Make table view controllers re-usable and lean when presenting a small amount of data that may have many different types of cell.
+Make table view controllers re-usable and lean when presenting data using many different types of cell.
 
 ## Motivation
 
