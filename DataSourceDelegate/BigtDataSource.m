@@ -57,7 +57,7 @@ typedef enum {
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.row == 0) {
+    if (indexPath.row == kFirstIndex) {
         static NSString *cellIdentifier = @"FirstCellIdenfier";
         FirstTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
         if (!cell) {
@@ -70,7 +70,7 @@ typedef enum {
         return cell;
     }
     
-    if (indexPath.row == 1) {
+    if (indexPath.row == kSecondIndex) {
         static NSString *cellIdentifier = @"SecondCellIdenfier";
         SecondTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
         if (!cell) {
